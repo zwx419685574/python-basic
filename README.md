@@ -1,3 +1,3 @@
-# some-thoughts
-this is some thoughts.
-you can edit it anytime
+# python-basic
+this is python-basic.
+you can edit it anytime 
