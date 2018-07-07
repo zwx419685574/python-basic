@@ -1,22 +1,22 @@
-Python PEP8 编码规范 https://legacy.python.org/dev/peps/pep-0008/<br>
+Python PEP8 编码规范 https://legacy.python.org/dev/peps/pep-0008/
 
-python 迭代器和生成器<br>
-    对于list、string、tuple、dict等这些容器对象,使用for循环遍历 <br> 
-   生成器：<br>
-   延迟操作。也就是在需要的时候才产生结果，不是立即产生结果。<br>
-  注意事项：<br>
-   生成器是只能遍历一次的。<br>
-   生成器是一类特殊的迭代器。<br>
+python 迭代器和生成器
+    对于list、string、tuple、dict等这些容器对象,使用for循环遍历 
+   生成器：
+   延迟操作。也就是在需要的时候才产生结果，不是立即产生结果。
+  注意事项：
+   生成器是只能遍历一次的。
+   生成器是一类特殊的迭代器。
    
-python虚拟环境--virtualenv<br>
-   1.创建虚拟环境　mkvirtualenv<br>
-       mkvirtualenv venv　　　<br>
-　　这样会在WORKON_HOME变量指定的目录下新建名为venv的虚拟环境。<br>
-　　若想指定python版本，可通过"--python"指定python解释器<br>
-    mkvirtualenv --python=/usr/local/python3.5.3/bin/python venv<br>
-   2. 基本命令 　<br>
-　　查看当前的虚拟环境目录   workon<br>
-　　切换到虚拟环境          workon py3<br>
-　　退出虚拟环境            deactivate<br>
-　　删除虚拟环境            rmvirtualenv venv<br>
+python虚拟环境--virtualenv
+   1.创建虚拟环境　mkvirtualenv
+       mkvirtualenv venv　　　
+　　这样会在WORKON_HOME变量指定的目录下新建名为venv的虚拟环境。
+　　若想指定python版本，可通过"--python"指定python解释器
+    mkvirtualenv --python=/usr/local/python3.5.3/bin/python venv
+   2. 基本命令 　
+　　查看当前的虚拟环境目录   workon
+　　切换到虚拟环境          workon py3
+　　退出虚拟环境            deactivate
+　　删除虚拟环境            rmvirtualenv venv
   
