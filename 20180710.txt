@@ -19,3 +19,11 @@ Python解释器种类以及特点？
   mytuple = (1, 2, 'Hello', (4, 5))
   mydict = {'Wang' : 1, 'Hu' : 2, 'Liu' : 4}
   myset = set(['Wang', 'Hu', 'Liu', 4, 'Wang'])
+
+string_reverse(‘abcdef’), 返回: ‘fedcba’
+  print str[::-1]
+ 
+list合并去重
+  list1 = [2, 3, 8, 4, 9, 5, 6]
+  list2 = [5, 6, 10, 17, 11, 2]
+  print list(set(list1+list2))
