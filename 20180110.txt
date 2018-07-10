@@ -1,0 +1,4 @@
+Python解释器种类以及特点？
+  CPython：官方解释器，用C语言开发的，使用最广
+  IPython：交互式解释器
+  PyPy、Jython、
